@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>商品登録</title>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="index.js"></script>
+
+</head>
+<header>
+<div id="nav">
+ <ul>
+   <li><a href="./index.html">商品一覧</a></li>
+   <li><a href="#" style="color: gray">商品登録</a></li>
+
+ </ul>
+</div>
+</header>
+<body>
+<h2>商品登録</h2>
+<form action="" method="post">
+  <label for="title">タイトル（最大100文字）</label>
+  <input type="text" name="title" maxlength="100">
+  <label for="description">説明（最大500文字）</label>
+  <textarea name="description" maxlength="500"></textarea>
+  <label for="money">価格</label>
+  <input type="text" name="money">
+  <label for="image">写真</label>
+  <input name="image" type="file" id="image" size="50">
+
+  <label for="shop">店舗</label>
+  <?php 繰り返す>
+  <input type="checkbox" name="shop" value="">
+  </?php>
+  <input type="text" name="shop" maxlength="100">
+
+  <p><input type="submit" value="確認する"></p>
+<form>
+</body>
+
+</html>
