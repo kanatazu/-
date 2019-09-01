@@ -45,15 +45,7 @@
                     @if($target == 'update')
                     <img src="data:image/png;base64,{{ $item->image}}">
                     @endif
-                    <!-- <div class="form-group">
-                        @if ($item->image)
-                            <p>
-                                <img src="{{ asset('storage/item/' . item->image) }}" alt="item" />
-                            </p>
-                        @endif
-                        {!! Form::label('file', '画像アップロード', ['class' => 'control-label']) !!}
-                        {!! Form::file('file') !!}
-                    </div> -->
+                
                     <input type="file" name="image">
                 </div>
                 <div class="form-group">

@@ -18,5 +18,6 @@
 // Route::post('/upload', 'NewController@upload');
 //item
 Route::resource('item', 'ItemController');
+Route::get("'/item/' + {search_item} + '/item'", 'ItemController@getItemByTitle');
 //shop
 // Route::resource('shop', 'ShopController');

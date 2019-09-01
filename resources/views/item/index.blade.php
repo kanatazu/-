@@ -10,26 +10,15 @@
 </header>
 
 <body>
-  <!-- <h2>商品検索</h2>
-  <div>
-    <form action="" method="post">
-      <label for="seaTitle">タイトル</label>
-      <input type="search" name="seaTitle" placeholder="タイトル">
-      <label for="maxprice">価格の上限</label>
-      <input name="maxprice" type="text" class="price" size="6" maxlength="9" placeholder="円">
-      <label for="minprice">価格の下限</label>
-      <input name="minprice" type="text" class="price" size="6" maxlength="9" placeholder="円">
-      <label for="shop">店舗</label>
-      <form>
-        <select name="店舗">
-          <option value=""></option>
+  <h2>商品検索</h2>
+<div>
+<div class="form-group">
+    <label for="search_item">タイトル</label>
+    <input type="text" id="search_item" name="search_item">
+</div>
+<button type="button" id="get_item">商品を検索</button>
 
-        </select>
-      </form>
-
-      <input type="submit" name="submit" value="検索">
-    </form>
-  </div> -->
+  </div>
   <h2>商品一覧</h2>
   <div class="items">
 @foreach($items as $item)
